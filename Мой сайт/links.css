@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+p {
+	font-size: 50px;
+	color: pink;
+	background-color: lavender;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+a.one:hover {
+	background-color: lavender;
+}
+a.one:active {
+	color: green;
+}
+a.one:visited {
+	color: black;
+}
+a.one{
+	font-size: 50px;
+	text-decoration: none;
+	text-decoration-color: blue;
+}
+.btn1{
+	width: 200px;
+	height: 60px;
+	font-size: 30px;
+	font-family: cursive;
+	border: solid 4px yellow;
+	background-color: orange;
+	color: lightcoral;
+	border-radius: 10% 30% ;
+}
+.btn1:hover{
+	border: dotted 6px orange;
+	background-color: lightcoral;
+	color: orange;
+	border-radius:40% ;
+}
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #00040a;
+	background:linear-gradient(to bottom, #5e9cff 5%, #0053fa 100%);
+	background-color:#5e9cff;
+	border-radius:17px;
+	border:1px solid #000205;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	width: 150px;
+	height: 65px;
+	font-size: 60px;
+	text-align: center;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0053fa 5%, #5e9cff 100%);
+	background-color:#0053fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
